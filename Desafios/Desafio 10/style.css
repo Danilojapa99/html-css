@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    picture {
+        width: 100px;
+    }
+    
+    .pq {
+        width: 100px;
+    }
+    .alteracao{
+        width: 700px;
+    }
+
+    body {
+        text-align: justify;
+        margin: 0;
+        background-color: rgb(46, 211, 142);
+    }
+
+    p {
+        margin: 4px;
+    }
+
+    header {
+        text-align: center;
+        font-family: poppins;
+        color: white;
+        height: 150px;
+        margin: 0px;
+        padding: 0px;
+        background: rgba(16, 153, 16, 0.623);
+        background: linear-gradient(180deg, rgb(46, 221, 139) 0%, rgb(27, 134, 88) 61%);
+        box-shadow: 5px -7px 11px 6px rgba(0, 0, 0, 0.479);
+    }
+
+    header > h1 {
+        padding: 10px;
+
+    }
+
+    header > p {       
+        height: fit-content;
+    }
+
+    nav {
+        text-align: left;
+    }
+
+    nav > a {
+        font-weight: bold;
+        font-family: poppins;
+        color: #ffff;
+        padding: 0px 0px 0px 10px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(6, 80, 6);
+    }
+
+    main {
+        margin: auto;
+        width: 700px;
+        background-color: white;
+        box-shadow: 0px 8px 8px 1px rgba(0, 0, 0, 0.404);
+    }
+
+    .atualmasc {
+        margin: 10px 200px;
+        padding: 0;
+    }
+
+    main > h1 {
+        padding: 5px 0px 0px 20px;
+        text-align: left;   
+        color: green;
+        font-family: android;
+    }
+
+    iframe {
+        margin-left: 40px;
+    }
+
+    .video {
+        padding: 15px 15px;
+        background: rgb(9,78,10);
+        background: linear-gradient(180deg, rgba(9,78,10,1) 18%, rgba(9,78,10,0.9009978991596639) 44%);
+    }
+
+    h2 {
+        background: rgb(8,190,8);
+        background: linear-gradient(270deg, rgba(6, 214, 6, 0.075) 52%, rgba(5, 196, 27, 0.308) 84%);
+        margin-left: 9px;
+        margin: 15px 3px;
+        text-align: left;
+        color: #008000;
+        font-family: android;
+    }

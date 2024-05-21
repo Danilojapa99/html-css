@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>código-fonte / pré formatação</h2>
+    <p>o comando <code>document.getElementById('teste') </code>é escrito em linguagem javaScript</p>
+
+    <!-- a tag "pre" serve para que o texto obedeça todas os digitos colocados no texto, o "p" não obedece quando você quer descer sem você colocar a tag "br" antes, ou até mesmo quão para trás você quer o texto, já a tag "pre" obedece tudo isso-->
+
+    <pre>
+        <code>
+            <!-- a tag "code" serve para você deixar todas as letras com monospace, ou seja, fazendo com que todas as letras ocupem a mesma quantidade de pixels, deixando mais fácil para ler coisas como códigos, por isso a tag se chamar "code" -->
+
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else
+    print(f'O número {num} é IMPAR')
+print('Fim do programa')
+        </code>
+    </pre>
+        <h2>Citações</h2>
+    <p>Como diria o pai de um amigo:<q> o computador é um burro mto rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Samy Silva, no seu livro A linguagem de marcação que revolucionou a web:</p>
+
+    <!-- a tag blockquote serve para que o google (ou o sistema de navegação que você estiver usando) saber donde você tirou uma citação, caso você use uma citação de algum livro da internet, ou de algum lugar da internet, ela não serve mto para os usuarios, é mais para o sistema de navegação saber mesmo, deixando o código mais profissional -->
+
+    <blockquote cite="https://www.google.com.br/books/edition/HTML5_2ª_Edição/f7JVBQAAQBAJ?hl=pt-BR&gbpv=0">
+        Desenvolver formulários altamente interativos com validação no lado do cliente com uso de atributos criados especialmente para essas finalidades.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+
+    <!-- a tag "abbr" serve para quando você abreviar uma palavra, e ent você quer que a pessoa saiba o significado da abreviação, assim oq você colocar dentro do "tittle" será exposto quando a pessoa ficar com o mouse em cima da palavra abreviada -->
+
+    <p> Estou estudando <abbr title="okay, aprender isso daq foi mto legal">HTML</abbr> e <abbr title="cascading style sheet">css</abbr>, estou gostando <small>eu acho...</small></p>
+    <h2>texto invertido</h2>
+
+    <!-- a tag "bdo" serve para você inverter as palavraskkkk mto inutil mas vou explicar como funciona também, você faz assim: <bdo dir="ltr">(o texto que você quer invertido)</bdo> oq fica depois do dir é a direção que ela ficará invertida ltr (left to right) ou seja, a maneira normal, mas da outra forma que realmente inverte é só colocar o rtl (right to left) no lugar do ltr-->
+    <p><bdo dir="ltr">isso parece estranho</bdo> <bdo dir="rtl">mas muito legal tbm</bdo></p>
+
+    <a href="ex007/Gran-200.png" download="ex007\Gran-200.png" type="image/png">download</a>
+</body>
+</html>

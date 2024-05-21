@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexisivel</title>
+</head>
+<body>
+    <h1>A imagem abaixo muda conforme o tamanho da tela</h1>
+    
+    <picture>
+        <source media="(max-width: 600px)" srcset="img\rackamp.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="img\RackamM.png" type="image/png">
+        <img src="img/RackamG.png" alt="">
+    </picture>
+    <p>Tente ver essa imagem em alguns dispositivos diferentes, ou apenas mude o tamanho da janela do navegador, será divertido hahaha</p>
+</body>
+</html>

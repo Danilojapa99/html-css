@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        /*  SELETORES PERSONALIZADOS
+            #   =  id
+            .   =  classe
+            :   =  pseudo classe
+            ::   =  pseudo element
+            >   =  children
+        */
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: brown;
+        }
+
+        a:visited {
+            color: cadetblue;
+            display: none;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        a::before {
+            content: '✶';
+
+        }
+
+        a::after {
+            content: '❉';
+            text-decoration: none;
+            font-weight: bold;
+            color: yellowgreen;
+        }
+
+        .especial::after {
+            content: '❀';
+        }
+
+        .especial::before {
+            content: '❀';
+
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.whatfontis.com" target="_blank">Repositório github</a></li>
+        <li><a href="https://www.youtube.com" class="especial" target="_blank">Canal do youtube</a></li>
+        <li><a href="https://pt.quizur.com/tag/1bI-conhecimentos-gerais" target="_blank">Site do curso em video</a></li>
+    </ul>
+    <a href="hover.html">voltar</a>
+    <a href="pseudoclasse.html">pular</a>
+</body>
+</html>

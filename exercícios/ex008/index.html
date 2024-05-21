@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+
+    <style>
+        mark {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- aqui veremos algumas formatações, semânticas e não semânticas -->
+    <!-- Semântica é quando há sentido em colocar ali, um significado, se não, se for só estilo, não é semântico, então deixa para o CSS fazer isso -->
+
+    <h1>principais formatações</h1>
+    <h2>negrito / destaque</h2>
+    
+    <!-- tem algumas formas de alterar uma palavra, mas algumas formas são semânticas e outras não -->
+
+    <p>nessa frase temos um <b>termo em negrito</b> usando a tag b (não semântica)</p>
+    <p>nessa frase temos um <strong>termo em destaque</strong> usando a tag strong(semântica)</p>
+
+    <!-- quando temos uma palavra em negrito usando a tag "b", é só estilo, faz em css pô, já quando queremos dar um destaque especial em uma palavra ou frase, coloque a tag "strong" que será semântico, mas não use mto pq senão já não é mais uma frase que você quer destacada, você a quer em negrito, ou seja não semântico -->
+
+    <h2>Itálico / ênfase</h2>
+    <p>nessa frase temos um <i>termo em italico</i> usando a tag i (não semântico)</p>
+    <p>nessa frase temos um <em>termo em ênfase</em> usando a tag EM (Sêmantica)</p>
+
+    <!-- tecnicamente a mesma coisa aqui, itálico não é semântico, é só estilo, ou seja, faça no css, já o enfâse, é enfâse, não tem mto oq explicar pq o conceito é o mesmo que o explicado na anotação anterior -->
+
+    <!-- veja as tags abaixos e pense por sí o pq não semântico e pq semântico, te ajudará -->
+
+    <h2>Texto marcado</h2>
+    <p>podemos criar tabem <mark>um texto marcado</mark> usando a tag MARK</p>
+    <p>o no próximo paragráfo temos <mark>outro texto marcado</mark> no final.</p>
+    <h2>Texto GRANDE e texto <small>pequeno</small></h2>
+    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>texto deletado</h2>
+    <p>Podemos colocar um texto como deletado quando ele <del>deve</del> pode ser lido, mas não considerado</p>
+    <h2>texto inserido</h2>
+    <p>Podemos marcar um texto como inserido para mostrar que esse texto foi colocado depois,<ins>legal né?</ins></p>
+    <p>também tem como colocar um texto <u>sublinhado </u>usando a tag &lt;u&gt; (não semântico)</p>
+    <h2>texto sobrescrito</h2>
+    <p>serve para escrever coisas do tipo x<sup>20</sup> + 3<sup>3</sup></p>
+    <h2>texto subscrito</h2>
+    <p>voce pode escrever coisas do tipo h<sub>2</sub>O</p>
+</body>
+</html>

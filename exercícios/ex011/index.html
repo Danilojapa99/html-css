@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em alguns dispositivos diferentes ou simplesmente diminua ou aumente o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/GuanabaraP.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/GuanabaraM.png">
+        <img src="imagens/GuanabaraG.png" alt="Imagem Grande flexisivel">
+    </picture>
+
+    <h2>Reproduzindo audio</h2>
+    <p>Vamos aprender a reproduzir audios em nosso site HTML</p>
+
+    <audio preload="metadata" controls>
+        <!-- Existe essa maneira de colocar audio no seu site e faz com que seja compátivel com quase todos os navegadores -->
+        
+        <source media="(max-width: 1000px)" src="midia/Papov.mp3" type="audio/mpeg">
+
+        <source media="(max-width: 750px)" src="midia/Summer Somewhere In Cuba - Cumbia Deli.mp3" type="audio/ogg">
+
+        <p>Sinto informar que seu navegador não é compátivel com a nossa trilha sonora <a href="midia/Papov.mp3">Ainda sim, caso queira escutar, baixe aqui o arquivo MP3</a></p>
+
+        <!-- Fazendo isso, o navegador vai tentar tocar as musicas em ordem que estão no código, se falhar ele tentará a próxima e assim por diante, caso nenhuma vá, a menssagem aparecerá -->
+    </audio>
+
+    <!-- os formatos de audios que tem são mp3 Wav e OGG-->
+</body>
+</html>
