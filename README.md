@@ -5,7 +5,7 @@ e agora estou aprendendo a gerenciar meus repositórios.
 
 atualmente tenho 2 projetos prontos, dê uma olhada!
 
-<a href="praticandosozinho\praticando02">Esse eu fiz sozinho</a>
+<a href="práticando sozinho/praticando02/">Esse eu fiz sozinho</a>
 
 <a href="Desafios/Desafio 10 (guiado)/">Esse eu fiz com a ajuda do professor Guanabara</a>
 
