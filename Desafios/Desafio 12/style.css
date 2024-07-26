@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "anton" ;
+    src: 
+    url('font/Anton-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 42vh;   
+    background-color: black;
+}
+    
+h1 {
+    font-family: "anton";
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 100px;
+    top: 25%;
+    left: 25%;
+}
+
+section > p {
+    margin: 50px 20px;
+    font-size: xx-large;
+    width: 300px;
+
+}
+
+section {
+    height: 90vh;
+}
+
+p.credito {
+    color: azure;
+    position: absolute;
+    font-size: normal;
+    top: 80%;
+    left: 43%;
+}
+
+section.nao {
+    background-image: url(imagens/background001.jpg);
+}
