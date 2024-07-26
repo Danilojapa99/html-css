@@ -41,10 +41,11 @@ section > p {
     width: 500px;
     margin-top: 50px;
     text-align: center;
+    height: fit-content;
 }
 
 .grande {
-    height: 150vh;
+    height: fit-content;
 }
 
 section {
@@ -60,6 +61,8 @@ p.credito {
 }
 
 section.nao {
+    padding-top: 2px;
+    padding-bottom: 40px;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,5 +76,18 @@ section.dois {
     background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
+}
 
+.ler {
+    background-color: rgba(144, 238, 144, 0.397);
+}
+
+.livro {
+    background-color: rgba(223, 255, 250, 0.596);
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
 }
